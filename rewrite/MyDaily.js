@@ -1,7 +1,7 @@
 # 个人自用开屏广告以及其他广告去除
 # update：2023-08-22 13:55
 
-hostname= m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn, nex.163.com, hpydcdn.gp.qq.com, formal.api.gp.qq.com, dict.youdao.com, api-overmind.youdao.com, cdke.youdao.com, enjoy.cdn-static.abchina.com
+hostname= m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn, nex.163.com, hpydcdn.gp.qq.com, formal.api.gp.qq.com, dict.youdao.com, api-overmind.youdao.com, cdke.youdao.com, enjoy.cdn-static.abchina.com, iad.g.163.com
 
 # 和平营地开屏广告
 ^https:\/\/formal\.api\.gp\.qq\.com\/game\/buttons url reject-dict
@@ -12,6 +12,7 @@ hostname= m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn
 
 # 网易邮箱大师开屏
 ^https:\/\/nex\.163\.com\/\w url reject-dict
+^https:\/\/iad\.g\.163\.com\/ma\/ad\/new url reject-dict
 
 # 广电营业厅
 ^https:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage url reject-200
