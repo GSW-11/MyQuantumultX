@@ -5,7 +5,7 @@
 hostname= maimemostatus.com, m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn, nex.163.com, hpydcdn.gp.qq.com, formal.api.gp.qq.com, dict.youdao.com, api-overmind.youdao.com, cdke.youdao.com, enjoy.cdn-static.abchina.com, iad.g.163.com, cube.elemecdn.com, nr-op.elemecdn.com
 
 # 墨墨背单词公告
-^https:\/\/maimemostatus\.com\/api\/v1\/contents\/bulletin -url reject-dict
+^https:\/\/maimemostatus\.com\/api\/v1\/contents\/bulletin url reject-dict
 
 # 饿了么 # 开屏广告 @豆豆分享 # 主机名cube.elemecdn.com, nr-op.elemecdn.com
 ^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
