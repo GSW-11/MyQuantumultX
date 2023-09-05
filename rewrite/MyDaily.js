@@ -1,7 +1,11 @@
 # 个人自用开屏广告以及其他广告去除
 # update：2023-08-22 13:55
+# update：2023-09-05 11:28 新增饿了么开屏
 
-hostname= m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn, nex.163.com, hpydcdn.gp.qq.com, formal.api.gp.qq.com, dict.youdao.com, api-overmind.youdao.com, cdke.youdao.com, enjoy.cdn-static.abchina.com, iad.g.163.com
+hostname= m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn, nex.163.com, hpydcdn.gp.qq.com, formal.api.gp.qq.com, dict.youdao.com, api-overmind.youdao.com, cdke.youdao.com, enjoy.cdn-static.abchina.com, iad.g.163.com, cube.elemecdn.com, nr-op.elemecdn.com
+
+#饿了么 #开屏广告 @豆豆分享 #主机名cube.elemecdn.com, nr-op.elemecdn.com
+^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
 
 # 和平营地开屏广告
 ^https:\/\/formal\.api\.gp\.qq\.com\/game\/buttons url reject-dict
