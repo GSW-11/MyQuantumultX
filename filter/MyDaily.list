@@ -2,3 +2,81 @@
 # 网易邮箱大师
 HOST-SUFFIX, iad.g.163.com, REJECT
 HOST-SUFFIX, nex.163.com, REJECT
+
+# ======= A ======= #
+# 阿里云
+IP-CIDR, 203.107.1.1/24, REJECT
+# 爱奇艺
+HOST, api.iqiyi.com, REJECT
+# Apple
+HOST, api-adservices.apple.com, REJECT
+HOST-SUFFIX, iadsdk.apple.com, REJECT
+# 安全浏览限制解除
+HOST, lookup.api.bsb.baidu.com, REJECT
+HOST, proxy.safebrowsing.apple, REJECT
+HOST, safebrowsing.g.applimg.com, REJECT
+HOST, safebrowsing.googleapis.com, REJECT
+HOST, safebrowsing.urlsec.qq.com, REJECT
+HOST, token.safebrowsing.apple, REJECT
+HOST, vs6.bj2ct.u3.ucweb.com, REJECT
+HOST-SUFFIX, safebrowsing.apple, REJECT
+HOST-SUFFIX, u3.ucweb.com, REJECT
+
+# ======= B ======= #
+# 百度
+HOST-SUFFIX, pos.baidu.com, REJECT
+# 百度地图
+HOST, afd.baidu.com, REJECT
+HOST, afdconf.baidu.com, REJECT
+HOST, httpdns.baidubce.com, REJECT
+HOST, lc.map.baidu.com, REJECT
+# 百度网盘
+HOST, mobads.baidu.com, REJECT
+# 百度贴吧
+IP-CIDR, 180.76.76.200/32, REJECT
+# 哔哩哔哩
+HOST, mall.bilibili.com, REJECT
+HOST, passport.bilibili.com, REJECT
+
+# 广告联盟
+HOST, is.snssdk.com, REJECT
+HOST, mi.gdt.qq.com, REJECT
+HOST, open.e.kuaishou.com, REJECT
+HOST-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
+HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
+HOST-SUFFIX, pangolin-sdk-toutiao1.com, REJECT
+HOST-SUFFIX, pangolin.snssdk.com, REJECT
+
+# 蓝奏云
+HOST, statics.woozooo.com, REJECT
+
+# Outlook
+HOST, acdn.adnxs.com, REJECT
+HOST, mediation.adnxs.com, REJECT
+HOST, sin3-ib.adnxs.com, REJECT
+
+# ======= R ======= #
+# RARBG 推广跳转
+HOST, bravetense.com, REJECT
+HOST, furiousfar.com, REJECT
+HOST, swallowcrockerybless.com, REJECT
+
+# 网易云音乐
+HOST, gdt.qq.com, REJECT
+HOST, httpdns.n.netease.com, REJECT
+HOST, iadmat.nosdn.127.net, REJECT
+HOST, iadmusicmat.music.126.net, REJECT
+HOST, iadmusicmatvideo.music.126.net, REJECT
+HOST-SUFFIX, 163jiasu.com, REJECT
+
+# 云闪付 开屏广告
+HOST, ads.95516.com, REJECT
+HOST, cm-10-138.getui.com, REJECT
+HOST, sdk-conf.getui.com, REJECT
+HOST, sdk.open.talk.getui.net, REJECT
+HOST, switch.cup.com.cn, REJECT
+HOST, tysdk.95516.com, REJECT
+
+# 字节跳动
+HOST, ad.zijieapi.com, REJECT
+HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
