@@ -2,7 +2,10 @@
 # update：2023-08-22 13:55
 # update：2023-09-05 11:28 新增饿了么开屏;墨墨公告
 
-hostname= api.ruubypay.com, web.ruubypay.com, maimemostatus.com, m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn, nex.163.com, hpydcdn.gp.qq.com, formal.api.gp.qq.com, dict.youdao.com, api-overmind.youdao.com, cdke.youdao.com, enjoy.cdn-static.abchina.com, iad.g.163.com, cube.elemecdn.com, nr-op.elemecdn.com
+hostname= gugongmini.dpm.org.cn, api.ruubypay.com, web.ruubypay.com, maimemostatus.com, m.client.10010.com, rtbapi.douyucdn.cn, ms.jr.jd.com, app.10099.com.cn, nex.163.com, hpydcdn.gp.qq.com, formal.api.gp.qq.com, dict.youdao.com, api-overmind.youdao.com, cdke.youdao.com, enjoy.cdn-static.abchina.com, iad.g.163.com, cube.elemecdn.com, nr-op.elemecdn.com
+
+# 故宫博物馆小程序 # 开屏广告 # 主机名gugongmini.dpm.org.cn
+^https:\/\/gugongmini\.dpm\.org\.cn\/gugong_applet\/open-screen url reject-dict
 
 # 易通行
 ^https:\/\/api\.ruubypay\.com\/Advert\/gain url reject-dict
