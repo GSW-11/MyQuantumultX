@@ -74,5 +74,5 @@ let data={
         "scoreCountStr" : "6"
     }
 }
-body=JSON.stringify(data)
+let body=JSON.stringify(data)
 $done({body})
