@@ -155,7 +155,5 @@ let data={
     "msg" : "success",
     "success" : true
 }
-console.log("data--->"+data)
 body=JSON.stringify(data)
-console.log("body--->"+body)
 $done({body})
