@@ -2,21 +2,6 @@ let data={
     "status" : 200,
     "msg" : "success",
     "result" : {
-        "vipInfo" : {
-            "vipCardBack" : null,
-            "vipColor" : null,
-            "vipIcon" : null,
-            "iconText" : "立即开通",
-            "expiredTime" : null,
-            "schema" : "huputiyu://webview/openencodeurl?fullscreen=1&url=https%3A%2F%2Foffline-download.hupu.com%2Fonline%2Fprod%2F320001%2Findex.html%3Fentrance%3D1",
-            "vipCardType" : 4,
-            "textInfo" : "开通会员立享免广告等13项特权",
-            "vipCardNightBack" : null,
-            "vipNightIcon" : null,
-            "vipNightColor" : null,
-            "hasVip" : true,
-            "vipCode" : null
-        },
         "followCount" : 0,
         "userLevel" : {
             "bbsUserLevel" : "3",
