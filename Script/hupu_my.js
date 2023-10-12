@@ -1,4 +1,4 @@
-body={
+let data={
     "code" : 1,
     "data" : {
         "cards" : [
@@ -155,4 +155,5 @@ body={
     "msg" : "success",
     "success" : true
 }
+body=JSON.stringify(data)
 $done({body})
