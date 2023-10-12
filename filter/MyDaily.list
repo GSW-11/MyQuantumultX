@@ -38,6 +38,11 @@ IP-CIDR, 180.76.76.200/32, REJECT
 HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT
 
+# 虎扑
+HOST, goblin.hupu.com, REJECT
+HOST, bbsactivity.hupu.com, REJECT
+
+
 # 广告联盟
 HOST, is.snssdk.com, REJECT
 HOST, mi.gdt.qq.com, REJECT
