@@ -2,6 +2,8 @@
 # 网易邮箱大师
 HOST-SUFFIX, iad.g.163.com, REJECT
 HOST-SUFFIX, nex.163.com, REJECT
+HOST, gorgon.youdao.com, REJECT
+HOST, dsp-x.jd.com, REJECT
 
 # ======= A ======= #
 # 阿里云
